@@ -161,3 +161,5 @@ function randomNumber(min, max) {
   const num = Math.floor(Math.random() * (max - min)) + min;
   return num;
 }
+
+window.customElements.define('app-loader', AppLoader);
