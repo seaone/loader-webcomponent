@@ -87,7 +87,7 @@ template.innerHTML = `
   </svg>
 `;
 
-export default class AppLoader extends HTMLElement {
+class AppLoader extends HTMLElement {
   static get observedAttributes() {
     return ['loader-color', 'duration', 'size'];
   }
